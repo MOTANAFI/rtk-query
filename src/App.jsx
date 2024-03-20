@@ -1,14 +1,19 @@
 import React from "react";
+import DeleteProduct from "./components/DeleteProduct";
 // import AllProducts from "./components/AllProducts";
 // import SpecificProduct from "./components/SpecificProduct";
-import AddNewProduct from "./components/AddNewProduct";
+// import AddNewProduct from "./components/AddNewProduct";
+// import UpdateProduct from "./components/UpdateProduct";
+
 
 function App() {
   return (
     <div>
       {/* <AllProducts /> */}
       {/* <SpecificProduct /> */}
-      <AddNewProduct />
+      {/* <AddNewProduct /> */}
+      {/* <UpdateProduct productId={4}/> */}
+      <DeleteProduct productId={2} />
     </div>
   );
 }

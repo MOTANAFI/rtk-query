@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import AllProducts from "./components/AllProducts";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <AllProducts />
+    </div>
+  );
 }
 
-export default App
+export default App;
